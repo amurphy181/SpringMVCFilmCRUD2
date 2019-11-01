@@ -2,7 +2,8 @@ package com.skilldistillery.film.entities;
 
 public class Film {
 
-	String name;
+	private int id;
+	private String name;
 
 	public String getName() {
 		return name;
