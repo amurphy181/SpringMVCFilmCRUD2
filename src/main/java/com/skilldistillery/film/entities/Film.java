@@ -3,6 +3,7 @@ package com.skilldistillery.film.entities;
 public class Film {
 
 	String name;
+	private int id;
 
 	public String getName() {
 		return name;
